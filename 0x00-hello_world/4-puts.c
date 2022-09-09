@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
- */
+*main - prints tghe string in the put function
+*‚Å
+*Description: using the main function
+* This √program prints "Program is like building a multilingual puzzlzle"
+*Return: 0
+*/
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle")
+	puts("\"Programming is like building a multilingual puzzles")
 	return (0);
 }
