@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_dog - prints a dog
+ * primt_dog - prints a dog
+ *
  * @d: dog to print
+ *
  * Return: void
  */
 void print_dog(struct dog *d)
@@ -16,7 +18,7 @@ void print_dog(struct dog *d)
 		printf("Name: %s\n", d->name);
 	printf("Age: %f\n", d->age);
 	if (d->owner == 0)
-		printf("Owner: (nil)\n");
+		printf("owner: (nil)\n");
 	else
-		printf("Owner: %s\n", d->owner);
+		printf("owner: %s\n", d->owner);
 }
