@@ -16,12 +16,12 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	if (!ptr)
 		return (NULL);
 
-	mmptr->n = n;
+	ptr->n = n;
 
 	if (!(*head))
-	ptr->next = NULL;
+		ptr->next = NULL;
 	else
-	ptr->next = *head;
+		ptr->next = *head;
 
 	*head = ptr;
 	return (ptr);
