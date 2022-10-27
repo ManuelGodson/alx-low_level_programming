@@ -31,7 +31,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 			if (!ptr->next)
 				{
 					ptr->next = new_node;
-						break
+					break
 				}
 					ptr = ptr->next;
 		}
